@@ -1,0 +1,52 @@
+.heroContainer,
+.hero-left-box,
+.buttons-div,
+.heroRightBox {
+  display: flex;
+}
+
+.heroContainer {
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+}
+.hero-left-box {
+  flex-direction: column;
+  max-width: 800px;
+}
+.hero-left-box i {
+  font-size: 3em;
+  color: var(--orange);
+  margin-bottom: 0.3em;
+}
+.smallText {
+  font-size: 0.8em;
+}
+.heroRightBox {
+  justify-content: center;
+  align-items: center;
+}
+.buttons-div {
+  margin-top: 1.3em;
+  gap: 1em;
+}
+.hero-image-div {
+  width: 16em;
+  height: 35em;
+  position: relative;
+  overflow: hidden;
+}
+.hero-image-div img {
+  z-index: 1;
+  width: 120%;
+  height: auto;
+  padding: 1em;
+  margin-top: 3.3em;
+  padding: 1em;
+  background-color: var(--black);
+}
+
+.hero-image-div img:hover {
+  opacity: 1;
+}

@@ -15,24 +15,41 @@ body {
   --lighter-gray: #595959;
   --border-radius: 10px;
 }
-
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 3em;
+}
 h1,
 h2 {
   color: white;
+  margin: 0;
 }
 
 button {
   border-radius: var(--border-radius);
-  font-size: 1em;
-  padding: 1em;
   border: none;
+  font-size: 1em;
+  padding: 0.6em 1.5em;
+  color: white;
+  transition: background-color 0.7s ease;
 }
 
 .button-main {
   background-color: var(--orange);
 }
+.button-main:hover,
+.button-main:active {
+  opacity: 0.9;
+}
 
 .button-secondary {
-  border: 1px solid #f2f2f2;
-  background-color: none;
+  border: 2px solid #f2f2f2;
+  background-color: transparent;
+}
+.button-secondary:hover,
+.button-secondary:active {
+  background-color: white;
+  color: var(--black);
 }
