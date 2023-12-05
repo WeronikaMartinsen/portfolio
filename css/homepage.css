@@ -1,13 +1,16 @@
 .heroContainer,
 .hero-left-box,
 .buttons-div,
-.heroRightBox {
+.heroRightBox,
+.project-list-container {
   display: flex;
 }
-
-.heroContainer {
+.heroContainer,
+.project-list-container {
   justify-content: center;
   align-items: center;
+}
+.heroContainer {
   gap: 1em;
   padding: 1em;
 }
@@ -49,4 +52,15 @@
 
 .hero-image-div img:hover {
   opacity: 1;
+}
+.project-list-container {
+  margin-top: 3em;
+  text-align: center;
+}
+.project-list-container h1 {
+  font-size: 5em;
+  opacity: 0.1;
+}
+.project-list-container h2 {
+  font-size: 4em;
 }
