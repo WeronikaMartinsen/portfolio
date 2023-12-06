@@ -24,7 +24,7 @@
   align-items: center;
 }
 .heroContainer {
-  margin: 1em;
+  margin: 2em;
   padding: 1em;
   max-width: 1200px;
 }
@@ -67,11 +67,14 @@
   opacity: 1;
 }
 .project-list-container {
-  margin-top: 3em;
+  padding: 3em 6em 3em 6em;
   text-align: center;
 }
 .opacity {
   font-size: 5em;
+  opacity: 0.04;
+}
+.more {
   opacity: 0.1;
 }
 .project-list-container h2 {
@@ -84,20 +87,20 @@
 .project-list-container {
   flex-direction: column;
 }
+
 .cards {
-  margin-top: 3em;
   gap: 0.5em;
-  width: 100%;
-  max-width: 1200px;
+  width: 90%;
+  max-width: 1600px;
   padding: 1em;
   flex-wrap: wrap;
   gap: 3em;
 }
 .project {
-  width: 70%;
-  border: 1px solid white;
-  max-width: 35em;
-  height: 25em;
+  width: 80%;
+  border: 1px solid var(--orange);
+  max-width: 45em;
+  height: max-content;
   border-radius: var(--border-radius);
   position: relative;
 }
@@ -113,10 +116,17 @@
 .project-text {
   flex-direction: column;
   position: absolute;
-  left: -90px;
+}
+.firstChild {
+  left: -95px;
   top: 0;
   text-align: left;
 }
+.secondChild {
+  text-align: right;
+  right: -97px;
+}
+
 .flex {
   text-align: left;
   flex-direction: column;
@@ -128,11 +138,15 @@
   margin-bottom: 0.7em;
 }
 .project img {
-  width: 100%;
+  width: 90%;
   opacity: 0.4;
   padding-top: 5em;
 }
 .project img:hover,
 .project img:active {
   opacity: 1;
+  scale: 1.02;
+}
+#h1 {
+  letter-spacing: 0.5em;
 }
