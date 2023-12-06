@@ -2,21 +2,26 @@
 .hero-left-box,
 .buttons-div,
 .heroRightBox,
-.project-list-container {
+.project-list-container,
+.cards,
+.project,
+.project-text,
+.flex {
   display: flex;
 }
 .heroContainer,
-.project-list-container {
+.project-list-container,
+.project {
   justify-content: center;
   align-items: center;
 }
 .heroContainer {
-  gap: 1em;
+  margin: 1em;
   padding: 1em;
+  max-width: 1200px;
 }
 .hero-left-box {
   flex-direction: column;
-  max-width: 800px;
 }
 .hero-left-box i {
   font-size: 3em;
@@ -57,10 +62,58 @@
   margin-top: 3em;
   text-align: center;
 }
-.project-list-container h1 {
+.opacity {
   font-size: 5em;
   opacity: 0.1;
 }
 .project-list-container h2 {
-  font-size: 4em;
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+.cards,
+.project,
+.project-list-container {
+  flex-direction: column;
+}
+.cards {
+  margin-top: 3em;
+  gap: 0.5em;
+  width: 100%;
+  max-width: 1200px;
+  padding: 1em;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+.project {
+  width: 70%;
+  border: 1px solid var(--orange);
+  max-width: 35em;
+  height: 20em;
+  border-radius: var(--border-radius);
+  position: relative;
+}
+.project:nth-child(odd) {
+  margin-left: auto;
+  justify-self: flex-end;
+}
+
+.project:nth-child(even) {
+  margin-right: auto;
+  justify-self: flex-start;
+}
+.project-text {
+  flex-direction: column;
+  position: absolute;
+  left: -90px;
+  text-align: left;
+}
+.flex {
+  text-align: left;
+  flex-direction: column;
+  font-size: 2em;
+}
+.flex-end {
+  margin-top: auto;
+  margin-bottom: 1em;
 }
