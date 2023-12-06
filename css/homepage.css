@@ -6,12 +6,18 @@
 .cards,
 .project,
 .project-text,
-.flex {
+.flex,
+.center {
   display: flex;
+}
+.center,
+#line {
+  text-align: center;
 }
 .heroContainer,
 .project-list-container,
-.project {
+.project,
+.center {
   justify-content: center;
   align-items: center;
 }
