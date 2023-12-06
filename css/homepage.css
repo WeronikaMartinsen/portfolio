@@ -19,17 +19,24 @@
 .heroContainer,
 .project-list-container,
 .project,
+.heroRightBox,
 .center {
   justify-content: center;
   align-items: center;
 }
+.heroRightBox {
+  width: 100%;
+  flex: 1;
+}
 .heroContainer {
-  margin: 2em;
   padding: 1em;
   max-width: 1200px;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
 }
 .hero-left-box {
   flex-direction: column;
+  flex: 1;
 }
 .hero-left-box i {
   font-size: 3em;
@@ -39,34 +46,25 @@
 .smallText {
   font-size: 0.8em;
 }
-.heroRightBox {
-  justify-content: center;
-  align-items: center;
-}
+
 .buttons-div {
   margin-top: 1.3em;
   gap: 1em;
 }
 .hero-image-div {
-  width: 16em;
-  height: 35em;
-  position: relative;
-  overflow: hidden;
+  width: 100%;
 }
 .hero-image-div img {
-  z-index: 1;
-  width: 120%;
-  height: auto;
-  padding: 1em;
-  margin-top: 3.3em;
   padding: 1em;
   background-color: var(--black);
+  width: 100%;
 }
 
 .hero-image-div img:hover {
   opacity: 1;
 }
 .project-list-container {
+  background-color: var(--black-lighter);
   padding: 3em 6em 3em 6em;
   text-align: center;
 }
