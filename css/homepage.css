@@ -90,18 +90,16 @@
 }
 
 .cards {
-  gap: 0.5em;
   width: 90%;
   max-width: 1600px;
   padding: 1em;
   flex-wrap: wrap;
-  gap: 3em;
+  gap: 5em;
 }
 .project {
-  width: 80%;
-  border: 1px solid var(--orange);
+  width: 60%;
+  background-color: var(--gray);
   max-width: 60em;
-  height: 30em;
   border-radius: var(--border-radius);
   position: relative;
 }
@@ -121,7 +119,6 @@
 }
 .firstChild {
   left: -95px;
-  top: 0;
   text-align: left;
 }
 .secondChild {

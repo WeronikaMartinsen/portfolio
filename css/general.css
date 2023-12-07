@@ -5,7 +5,10 @@ body {
   font-family: "Edu TAS Beginner", cursive;
   font-family: "Open Sans", sans-serif;
 }
-
+a,
+li {
+  text-decoration: none;
+}
 :root {
   --black-lighter: #0d0d0d;
   --black: #000000;
