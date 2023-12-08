@@ -4,6 +4,8 @@ body {
   font-family: "Arimo", sans-serif;
   font-family: "Edu TAS Beginner", cursive;
   font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -35,6 +37,10 @@ li {
   text-decoration: none;
   list-style-type: none;
   text-align: left;
+}
+p {
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -70,4 +76,14 @@ button {
 }
 .blue {
   color: var(--blue);
+}
+.extra-margin {
+  margin-bottom: 1em;
+}
+.extra-padding {
+  padding: 1em;
+}
+.black {
+  color: var(--black);
+  font-weight: 500;
 }
