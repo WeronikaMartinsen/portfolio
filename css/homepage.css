@@ -156,3 +156,7 @@
 #h1 {
   letter-spacing: 0.5em;
 }
+.technologies {
+  padding: 1em 0 1em 0;
+  color: var(--blue);
+}

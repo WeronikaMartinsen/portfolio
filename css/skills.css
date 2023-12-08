@@ -1,0 +1,12 @@
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin: 1em;
+}
+.skills ion-icon {
+  font-size: 2em;
+  color: var(--orange);
+  color: var(--gray);
+}
