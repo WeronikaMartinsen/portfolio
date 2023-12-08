@@ -16,7 +16,7 @@
   text-align: center;
 }
 .center {
-  margin-bottom: 3em;
+  margin-bottom: 6em;
 }
 .hero,
 .heroContainer,
@@ -50,7 +50,7 @@
   margin-bottom: 0.3em;
 }
 .smallText {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .buttons-div {
@@ -77,11 +77,9 @@
 .opacity {
   color: var(--orange);
   font-size: 5em;
-  opacity: 0.1;
+  opacity: 0.4;
 }
-.more {
-  opacity: 0.1;
-}
+
 .project-list-container h2 {
   font-size: 3em;
   margin: 0;
@@ -107,6 +105,12 @@
   max-width: 60em;
   border-radius: var(--border-radius);
   position: relative;
+  border: 1px solid var(--orange);
+}
+.project:hover,
+.project:active {
+  background-color: var(--black);
+  border: 2px solid var(--red);
 }
 .project:nth-child(odd) {
   margin-right: auto;
@@ -143,13 +147,11 @@
 }
 .project img {
   width: 60%;
-  opacity: 0.4;
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
 .project img:hover,
 .project img:active {
   opacity: 1;
-  scale: 1.02;
 }
 #h1 {
   letter-spacing: 0.5em;

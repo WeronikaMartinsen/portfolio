@@ -1,0 +1,25 @@
+.footer,
+.row,
+.column {
+  display: flex;
+}
+.row {
+  justify-content: space-around;
+  align-items: center;
+  gap: 4em;
+}
+.footer {
+  height: max-content;
+  width: 100%;
+  margin: 1em;
+  justify-content: center;
+}
+.column {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.column img {
+  width: 40%;
+}

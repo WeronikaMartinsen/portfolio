@@ -35,9 +35,7 @@ li {
   text-decoration: none;
   list-style-type: none;
 }
-p {
-  padding: 1em;
-}
+
 button {
   border-radius: var(--border-radius);
   border: none;
@@ -68,4 +66,7 @@ button {
 #line {
   font-size: 5em;
   color: var(--orange);
+}
+.blue {
+  color: var(--blue);
 }
