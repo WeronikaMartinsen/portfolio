@@ -5,21 +5,37 @@
 }
 .row {
   justify-content: space-around;
+  width: 100%;
+  padding: 0 1em 0 1em;
+}
+.row,
+.column {
   align-items: center;
-  gap: 4em;
 }
 .footer {
-  height: max-content;
+  height: 20em;
   width: 100%;
-  margin: 1em;
   justify-content: center;
+  background-color: var(--gray);
 }
 .column {
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
   gap: 2em;
+  width: 100%;
+  padding: 1em;
 }
 .column img {
-  width: 40%;
+  width: 10em;
+}
+.column ul li {
+  padding: 0;
+  padding-bottom: 1em;
+}
+.column ul {
+  padding-left: 0;
+}
+.border-left {
+  border-left: 1px solid white;
+  height: 10em;
 }
