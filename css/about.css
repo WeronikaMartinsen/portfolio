@@ -1,0 +1,54 @@
+.about,
+.aboutContainer,
+.about-image-Div,
+.flex-row,
+.open-arrow,
+#closeAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.flex-row {
+  gap: 5em;
+}
+.about,
+.open-arrow {
+  flex-direction: column;
+  gap: 1em;
+}
+.about-image-Div img {
+  width: 10em;
+  border-radius: 50%;
+}
+.about-image-Div {
+  background-color: var(--gray);
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  padding: 1em;
+}
+.about-image-Div h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.title {
+  background-color: var(--orange-lighter);
+  width: 100%;
+  border-radius: var(--border-radius);
+  text-align: center;
+}
+.open-arrow i {
+  font-size: 4em;
+  color: var(--orange);
+}
+.aboutContainer {
+  display: none;
+}
+.visible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add any other styling needed for the centered design */
+}

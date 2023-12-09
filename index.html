@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,6 +32,7 @@
     <script defer src="js/footer.js"></script>
     <script defer src="js/contact.js"></script>
     <script defer src="js/skills.js"></script>
+    <script defer src="js/about.js"></script>
   </head>
   <body>
     <header>
@@ -42,7 +44,6 @@
       <section class="hero">
         <div class="heroContainer">
           <div class="hero-left-box">
-            <span class="smallText">Hi, my name is Weronika Martinsen!</span>
             <h1>I`m Frontend</h1>
             <h2>developer</h2>
             <h3 class="blue">STUDENT</h3>
@@ -74,7 +75,11 @@
           </div>
         </div>
       </section>
-    
+      <div class="container">
+        <div class="open-arrow" id="openAbout"><span>About me</span><i class="fa-solid fa-angle-down"></i></div>
+        <div class="aboutContainer" id="aboutContainer"></div>
+        <div class="open-arrow" id="closeAbout" style="display: none;"><span>Close</span><i class="fa-solid fa-chevron-up"></i></div>
+      </div>
       <section>
         <div class="project-list-container">
           <div>
@@ -143,7 +148,8 @@
                 </p>
                 <div class="technologies">
                   <span>HTML |</span>
-                  <span>CSS</span>
+                  <span>CSS |</span>
+                  <span>JavaScript |</span>
                 </div>
               </div>
               <div class="flex-end">
