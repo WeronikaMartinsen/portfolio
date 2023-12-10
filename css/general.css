@@ -78,6 +78,9 @@ button {
   font-size: 5em;
   color: var(--orange);
 }
+.orange {
+  color: var(--orange);
+}
 .blue {
   color: var(--blue);
 }

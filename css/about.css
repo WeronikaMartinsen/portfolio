@@ -3,11 +3,14 @@
 .about-image-Div,
 .flex-row,
 .open-arrow,
-#closeAbout {
+#closeAbout,
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+}
+.container {
+  flex-direction: column;
 }
 .flex-row {
   gap: 5em;
