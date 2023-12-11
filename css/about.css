@@ -2,7 +2,8 @@
 .about-image-Div,
 .open-arrow,
 .container,
-.space-between {
+.space-between,
+.center-align {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,6 +11,7 @@
 .container {
   flex-direction: column;
   width: 100%;
+  margin: 2em 0 2em 0;
 }
 .about-columns {
   flex-direction: column;
@@ -21,7 +23,8 @@
   align-items: flex-start;
 }
 .about,
-.open-arrow {
+.open-arrow,
+.center-align {
   flex-direction: column;
   gap: 1em;
 }
@@ -54,7 +57,7 @@
   padding: 1em;
 }
 .open-arrow i {
-  font-size: 4em;
+  font-size: 3em;
   color: var(--orange);
 }
 .aboutContainer {

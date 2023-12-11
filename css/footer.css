@@ -38,3 +38,6 @@
   border-left: 1px solid white;
   height: 10em;
 }
+.border-left i {
+  font-size: 1.6em;
+}

@@ -32,10 +32,11 @@ h2 {
   margin: 0;
 }
 
-ul,
 a,
+ul,
 li {
   text-decoration: none;
+  list-style-type: none;
 }
 a:hover {
   text-decoration: none;
