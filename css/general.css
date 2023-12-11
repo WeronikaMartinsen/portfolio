@@ -36,9 +36,18 @@ ul,
 a,
 li {
   text-decoration: none;
-  list-style-type: none;
-  text-align: left;
 }
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
 p {
   margin: 0;
   padding: 0;

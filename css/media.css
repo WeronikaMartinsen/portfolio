@@ -41,7 +41,7 @@
     margin-left: auto;
   }
   #h1 {
-    font-size: 4em;
+    font-size: 3.7em;
     letter-spacing: 0.1em;
   }
   .project-list-container {
@@ -60,6 +60,11 @@
   }
   .nav img {
     width: 12em;
+  }
+  .flex-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 

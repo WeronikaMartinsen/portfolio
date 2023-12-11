@@ -1,10 +1,8 @@
-.about,
 .aboutContainer,
 .about-image-Div,
 .open-arrow,
-#closeAbout,
 .container,
-.about-columns {
+.space-between {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,6 +25,9 @@
   flex-direction: column;
   gap: 1em;
 }
+.open-arrow span {
+  font-size: 1em;
+}
 .about-image-Div img {
   width: 10em;
   border-radius: 50%;
@@ -40,7 +41,6 @@
 }
 .about-image-Div h3 {
   font-size: 2em;
-  margin: 0;
   text-align: center;
 }
 
@@ -49,6 +49,9 @@
   width: 100%;
   border-radius: var(--border-radius);
   text-align: center;
+}
+.title h4 {
+  padding: 1em;
 }
 .open-arrow i {
   font-size: 4em;
@@ -66,22 +69,37 @@
 }
 .about-content {
   padding: 1em;
+  text-align: left;
   display: flex;
   flex-direction: column;
 }
 .about {
-  width: 30em;
+  max-width: 30em;
   background-color: var(--gray);
+  border-radius: var(--border-radius);
 }
-
 .left {
   text-align: left;
 }
 .extra-space {
   gap: 1em;
 }
+.hover-link {
+  color: inherit;
+}
 .hover-link:hover,
 .hover-link:active {
   color: var(--blue);
   cursor: pointer;
+}
+.space-between {
+  gap: 1em;
+}
+.space-between i,
+.about-content i {
+  color: var(--orange-lighter);
+}
+.extra-gap {
+  display: flex;
+  gap: 1em;
 }
