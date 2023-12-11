@@ -1,13 +1,33 @@
+![Image Alt text](/images/readMeImage.jpg "Screenshot of my portfolio.")
+
 # Weronika Martinsen's Portfolio
 
 Welcome to my portfolio! This repository showcases my skills, projects, and a little bit about myself.
 
+## Installing
+
+To get started with this project, follow these steps:
+
+1. Clone the repo:
+
+   ```bash
+   git clone git@github.com/WeronikaMartinsen/portfolio.git
+   ```
+
+   npm install
+
+## Running
+
+2. To run the app, use the following command:
+
+npm run start
+
 ## Table of Contents
 
-- [About Me]
-- [Projects]
-- [Technical Skills]
-- [Contact]
+- About Me
+- Projects
+- Technical Skills
+- Contact
 
 ## About Me
 
