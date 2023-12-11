@@ -2,7 +2,7 @@ const about = document.querySelector(".aboutContainer");
 
 about.innerHTML = `
 
-<div class="about">
+<div>
 <div class="about-image-Div">
 <img src="/images/myImage.jpg" alt="Profile picture of myself - Weronika Martinsen."
   />
@@ -12,7 +12,7 @@ about.innerHTML = `
 <div class="about-columns">
 <div class="about">
 <div class="title"><h4>CONTACTS</h4></div>
-<span>📧 Email:
+<div class="about-content"><span>📧 Email:
 wb3167@gmail.com</span>
 <span>🌐 Website:
 </span>
@@ -21,7 +21,7 @@ Norway</span>
 <span>📱 Phone:
 925 011 77</span>
 <span>🔗 LinkedIn:
-https://www.linkedin.com/in/weronika-martinsen-a655a1246/</span>
+https://www.linkedin.com/in/weronika-martinsen-a655a1246/</span></div>
 </div>
 
 <div class="about">
@@ -31,20 +31,20 @@ https://www.linkedin.com/in/weronika-martinsen-a655a1246/</span>
 <div class="about">
 <div class="title"><h4>ABOUT ME</h4>
 </div>
-<span>📱 Phone:
+<div class="about-content">
+<span>
 I just started my second year as student in frontend development at Noroff. 
-</div>
+</div></div>
 
 <div class="about">
 <div class="title"><h4>INTERESTS</h4>
-
+</div><div class="about-content">
+<span>reading books</span>
+<span>exercising</span>
+<span>travel</span>
+<span>listen to music</span>
+<span>making food</span></div></div></div>
 </div>
-<ul><li>reading books</li>
-<li>exercising</li>
-<li>travel</li>
-<li>listen to music</li>
-<li>making food</li></ul></div></div></div>
-
 </div>
 
 `;
