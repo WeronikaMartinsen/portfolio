@@ -1,10 +1,10 @@
 .about,
 .aboutContainer,
 .about-image-Div,
-.flex-row,
 .open-arrow,
 #closeAbout,
-.container {
+.container,
+.about-columns {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,15 @@
   flex-direction: column;
   width: 100%;
 }
-
+.about-columns {
+  flex-direction: column;
+  flex: 1;
+}
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .about,
 .open-arrow {
   flex-direction: column;
@@ -62,10 +70,18 @@
   flex-direction: column;
 }
 .about {
-  max-width: 30em;
+  width: 30em;
   background-color: var(--gray);
 }
-.flex-row {
-  gap: 4em;
-  flex-wrap: wrap;
+
+.left {
+  text-align: left;
+}
+.extra-space {
+  gap: 1em;
+}
+.hover-link:hover,
+.hover-link:active {
+  color: var(--blue);
+  cursor: pointer;
 }

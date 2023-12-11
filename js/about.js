@@ -12,20 +12,23 @@ about.innerHTML = `
 <div class="about-columns">
 <div class="about">
 <div class="title"><h4>CONTACTS</h4></div>
-<div class="about-content"><span>📧 Email:
+<div class="about-content extra-space"><span>📧
 wb3167@gmail.com</span>
-<span>🌐 Website:
+<span class="hover-link">🌐 https://weronikamartinsen.netlify.app/
 </span>
-<span>📍 Location:
+<span>📍
 Norway</span>
-<span>📱 Phone:
+<span>📱
 925 011 77</span>
-<span>🔗 LinkedIn:
+<span class="hover-link">🔗
 https://www.linkedin.com/in/weronika-martinsen-a655a1246/</span></div>
 </div>
 
 <div class="about">
-<div class="title"><h4>SKILLS</h4></div></div></div>
+<div class="title"><h4>TECHNICAL SKILLS</h4></div>
+<div class="about-content">
+<p>HTML | CSS | JavaScript | WordPress | Figma | Adobe Photoshop</p>
+</div></div>
 
 <div class="about-columns">
 <div class="about">
@@ -33,17 +36,13 @@ https://www.linkedin.com/in/weronika-martinsen-a655a1246/</span></div>
 </div>
 <div class="about-content">
 <span>
-I just started my second year as student in frontend development at Noroff. 
+I just started my second year as student in frontend development at Noroff.</span> 
 </div></div>
 
 <div class="about">
-<div class="title"><h4>INTERESTS</h4>
-</div><div class="about-content">
-<span>reading books</span>
-<span>exercising</span>
-<span>travel</span>
-<span>listen to music</span>
-<span>making food</span></div></div></div>
+<div class="title"><h4>INTERESTS</h4></div>
+<div class="about-content">
+<span class="left">books, skiing, cooking, training, walking</span></div></div></div>
 </div>
 </div>
 
