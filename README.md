@@ -16,15 +16,17 @@ To get started with this project, follow these steps:
 
 2. Install the dependencies:
 
-```npm install
+```bash
+npm install
 
 ```
 
 ## Running
 
-2. To run the app, use the following command:
+3. To run the app, use the following command:
 
-```npm run start
+```bash
+npm run start
 
 ```
 
@@ -53,7 +55,7 @@ Here is the list of the project I made in the last year of my study:
    - I had the incredible opportunity to bring Rain Jacket Haven to life, an immersive online shopping experience dedicated to elevating rainwear. This project allowed me to merge my love for web development with a commitment to user-centric design.
    - Build with HTML, CSS, JavaScript, API generated from headless CMS.
 
-   3. [Project 2: Science Museum](https://symphonious-marigold-52e292.netlify.app/)
+3. [Project 3: Science Museum](https://symphonious-marigold-52e292.netlify.app/)
 
    - Beyond the initial development, the project reflects a commitment to continuous improvement. Regular updates and maintenance routines are implemented to ensure that the "Science Museum for Kids" remains a dynamic and evolving platform for learning.
    - Build with HTML and CSS.
@@ -69,4 +71,11 @@ Reach out to me for collaboration or just to say hello!
 - Email: wb3167@gmail.com
 - Portfolio: [weronikamartinsen.netlify.app](https://weronikamartinsen.netlify.app/)
 - LinkedIn: [Weronika Martinsen](https://www.linkedin.com/in/weronika-martinsen-a655a1246/)
-- Phone: 925 011 77
+
+## References
+
+- Content: Myself, ChatGPT
+- Images: https://unsplash.com/
+- Icons: https://fontawesome.com/
+- Icons: https://ionic.io/ionicons
+- Fonts: https://fonts.google.com/
