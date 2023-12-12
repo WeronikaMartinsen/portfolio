@@ -64,6 +64,7 @@ button {
   padding: 0.6em 1.5em;
   color: white;
   transition: background-color 0.7s ease;
+  text-align: center;
 }
 
 .button-main {
@@ -106,4 +107,7 @@ button {
 }
 .extra-margin-top {
   padding-top: 1em;
+}
+.border-round {
+  border-radius: 50%;
 }

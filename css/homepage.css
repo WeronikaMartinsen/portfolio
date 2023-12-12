@@ -8,7 +8,8 @@
 .project,
 .project-text,
 .flex,
-.gap {
+.gap,
+.hero-image-div {
   display: flex;
 }
 
@@ -37,6 +38,7 @@
   max-width: 1200px;
   flex-wrap: wrap;
   margin-bottom: 1em;
+  gap: 2em;
 }
 .hero-left-box {
   flex-direction: column;
@@ -57,12 +59,17 @@
   gap: 2em;
 }
 .hero-image-div {
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 100%;
+  margin-bottom: 5em;
 }
 .hero-image-div img {
   padding: 1em;
   background-color: var(--black);
-  width: 100%;
+  width: 60%;
+  padding: 0.5em;
+  background-color: var(--orange-lighter);
 }
 
 .hero-image-div img:hover {
@@ -154,4 +161,7 @@
 .technologies {
   padding: 1em 0 1em 0;
   color: var(--orange-lighter);
+}
+.extraStyle {
+  width: 40%;
 }

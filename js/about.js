@@ -3,7 +3,7 @@ const about = document.querySelector(".aboutContainer");
 about.innerHTML = `
 <div class="flex-row">
 <div class="about-image-Div">
-<img src="/images/myImage.jpg" alt="Profile picture of myself - Weronika Martinsen."
+<img class="border-round"src="/images/myImage.jpg" alt="Profile picture of myself - Weronika Martinsen."
   />
   <h3>Weronika Martinsen</h3>
   <div class="about-content extra-space">

@@ -33,7 +33,6 @@
 }
 .about-image-Div img {
   width: 10em;
-  border-radius: 50%;
 }
 .about-image-Div {
   background-color: var(--black-lighter);
