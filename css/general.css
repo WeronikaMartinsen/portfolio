@@ -104,3 +104,6 @@ button {
   color: var(--black);
   font-weight: 500;
 }
+.extra-margin-top {
+  padding-top: 1em;
+}
