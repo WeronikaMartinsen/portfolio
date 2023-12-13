@@ -35,7 +35,7 @@
 }
 .heroContainer {
   padding: 2em;
-  max-width: 1200px;
+  max-width: 1400px;
   flex-wrap: wrap;
   margin-bottom: 1em;
   gap: 2em;
@@ -59,17 +59,12 @@
   gap: 2em;
 }
 .hero-image-div {
-  justify-content: flex-start;
-  align-items: flex-start;
   width: 100%;
   margin-bottom: 5em;
 }
 .hero-image-div img {
   padding: 1em;
-  background-color: var(--black);
   width: 60%;
-  padding: 0.5em;
-  background-color: var(--orange-lighter);
 }
 
 .hero-image-div img:hover {
@@ -106,18 +101,13 @@
 }
 
 .project {
-  width: 60%;
   background-color: var(--black-lighter);
-  max-width: 60em;
+  max-width: 40em;
   border-radius: var(--border-radius);
   position: relative;
   border: 1px solid var(--orange);
 }
-.project:hover,
-.project:active {
-  background-color: var(--black);
-  border: 2px solid var(--red);
-}
+
 .project:nth-child(odd) {
   margin-right: auto;
   justify-self: flex-end;
@@ -150,6 +140,7 @@
 .project img {
   width: 60%;
   padding-top: 0.5em;
+  border-radius: var(--border-radius);
 }
 .project img:hover,
 .project img:active {

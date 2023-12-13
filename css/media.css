@@ -36,9 +36,6 @@
     align-items: center;
     padding: 0.6em;
   }
-  .project img {
-    opacity: 1;
-  }
 
   .navList {
     display: none;

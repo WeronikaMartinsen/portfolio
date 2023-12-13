@@ -72,7 +72,7 @@ button {
 }
 .button-main:hover,
 .button-main:active {
-  background-color: var(--red);
+  background-color: var(--orange-lighter);
 }
 
 .button-secondary {
