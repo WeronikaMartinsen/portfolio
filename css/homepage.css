@@ -44,6 +44,7 @@
   flex-direction: column;
   flex: 1;
 }
+
 .hero-left-box i {
   font-size: 3em;
   color: var(--orange);

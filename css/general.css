@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
 }
 
 :root {
@@ -63,10 +63,12 @@ button {
   color: white;
   transition: background-color 0.7s ease;
   text-align: center;
+  font-weight: 600;
 }
 
 .button-main {
   background-color: var(--orange);
+  color: var(--black);
 }
 .button-main:hover,
 .button-main:active {
