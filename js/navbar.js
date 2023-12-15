@@ -7,17 +7,18 @@ navbar.innerHTML = `<div class="nav"><a href="#home">
 <i id="hidden" class="fa-solid fa-rectangle-xmark close-button"></i></div>
 <div class="navListContainer">
 <ul class="navList">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
   <li class="dropdown">
-    Projects
+    <div class="flex-display">Projects<i class="fa-solid fa-angle-down margin-left"></i></div>
     <div class="dropdown-content">
       <a href="https://celebrated-chebakia-e82c27.netlify.app/" class="dropdown-item">Web & Dev Parenthood</a>
       <a href="https://classy-rabanadas-8c360c.netlify.app/" class="dropdown-item">Rainy-Days</a>
       <a href="https://symphonious-marigold-52e292.netlify.app/" class="dropdown-item">Science Museum</a>
     </div>
   </li>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+
 </ul>
 </div>
 </div>

@@ -1,5 +1,6 @@
 .navbar,
-.navList {
+.navList,
+.flex-display {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +8,7 @@
 .navbar {
   height: 5em;
   justify-content: space-between;
-  margin: 0 2em 0 2em;
+  margin: 0 4em 0 3em;
 }
 .nav img {
   width: 14em;
@@ -40,6 +41,7 @@
   display: block;
   background-color: var(--black);
 }
+
 .dropdown-item:hover,
 .dropdown-item:active {
   background-color: var(--orange-lighter);
@@ -51,6 +53,7 @@
 .navList li:active {
   color: var(--orange);
 }
+
 .menu {
   display: none;
   position: relative;
