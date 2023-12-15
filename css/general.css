@@ -6,6 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
+  letter-spacing: 1px;
 }
 
 :root {
@@ -104,10 +105,27 @@ button {
 .black {
   color: var(--black);
   font-weight: 500;
+  text-align: center;
 }
 .extra-margin-top {
   padding-top: 1em;
 }
 .border-round {
   border-radius: 50%;
+}
+.margin-auto {
+  margin-left: auto;
+}
+.dot {
+  padding: 0.5em;
+  background-color: var(--orange);
+  height: 3em;
+  width: 3em;
+}
+.dot-smaller {
+  padding: 0;
+  margin: 0;
+  background-color: var(--blue);
+  margin-top: 2em;
+  margin-left: 25em;
 }

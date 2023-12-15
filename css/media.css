@@ -15,15 +15,25 @@
     flex-direction: column-reverse;
     padding: 0.6em;
   }
-  .hero {
-    justify-content: center;
-    align-items: center;
+  .margin-button {
+    margin-bottom: 15em;
   }
   .hero-image-div img {
-    width: 40%;
+    width: 70%;
   }
-  .hero-image-div {
-    margin-bottom: 0;
+  .dot {
+    width: 1em;
+    height: 1em;
+  }
+  .dot-smaller {
+    margin: 0;
+  }
+  .hero-image-div,
+  .hero-left-box {
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em 0 1em;
+    text-align: center;
   }
   .navList {
     gap: 2em;

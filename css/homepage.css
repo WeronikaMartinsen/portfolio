@@ -63,8 +63,7 @@
   margin-bottom: 5em;
 }
 .hero-image-div img {
-  padding: 1em;
-  width: 70%;
+  width: 80%;
 }
 
 .hero-image-div img:hover {
@@ -107,7 +106,9 @@
   position: relative;
   border: 1px solid var(--orange);
 }
-
+.project:hover {
+  transform: scale(1.01);
+}
 .project:nth-child(odd) {
   margin-right: auto;
   justify-self: flex-end;
