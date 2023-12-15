@@ -1,4 +1,4 @@
-![Image Alt text](/images/readMeImage.jpg "Screenshot of my portfolio.")
+![Image Alt text](/images/portfolio.png "Screenshot of my portfolio.")
 
 # Weronika Martinsen's Portfolio
 
