@@ -42,7 +42,9 @@
 }
 .dropdown-item:hover,
 .dropdown-item:active {
-  background-color: var(--orange);
+  background-color: var(--orange-lighter);
+  color: var(--black);
+  font-weight: 600;
 }
 
 .navList li:hover,

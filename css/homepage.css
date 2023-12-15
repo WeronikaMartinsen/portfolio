@@ -106,9 +106,7 @@
   position: relative;
   border: 1px solid var(--orange);
 }
-.project:hover {
-  transform: scale(1.01);
-}
+
 .project:nth-child(odd) {
   margin-right: auto;
   justify-self: flex-end;

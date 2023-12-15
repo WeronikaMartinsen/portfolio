@@ -1,7 +1,7 @@
 const navbar = document.querySelector(".navbar");
 
-navbar.innerHTML = `<div class="nav">
-<img src="/images/martinsenLogo.png" alt="Logo">
+navbar.innerHTML = `<div class="nav"><a href="#home">
+<img src="/images/martinsenLogo.png" alt="Logo"></a>
 </div>
 <div class="menu"><i class="fa-solid fa-bars"></i>
 <i id="hidden" class="fa-solid fa-rectangle-xmark close-button"></i></div>
@@ -15,9 +15,9 @@ navbar.innerHTML = `<div class="nav">
       <a href="https://symphonious-marigold-52e292.netlify.app/" class="dropdown-item">Science Museum</a>
     </div>
   </li>
-  <li>Home</li>
-  <li>Contact</li>
-  <li>About</li>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
 </ul>
 </div>
 </div>
