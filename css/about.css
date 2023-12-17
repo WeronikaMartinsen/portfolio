@@ -27,6 +27,7 @@
 .center-align {
   flex-direction: column;
   gap: 1em;
+  margin-top: 0.5em;
 }
 .open-arrow span {
   font-size: 1em;
