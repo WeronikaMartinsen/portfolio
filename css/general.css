@@ -54,7 +54,14 @@ p {
 span {
   text-align: left;
 }
-
+textarea,
+input {
+  border: none;
+  border-radius: var(--border-radius);
+}
+input {
+  height: 3em;
+}
 button {
   border-radius: var(--border-radius);
   border: none;
@@ -130,4 +137,7 @@ button {
 }
 .margin-left {
   margin-left: 1em;
+}
+.margin-button-less {
+  margin-bottom: 0.7em;
 }

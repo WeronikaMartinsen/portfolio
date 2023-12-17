@@ -13,3 +13,141 @@
 .no-border {
   border: none;
 }
+
+.validation {
+  background-color: var(--black-lighter);
+  margin: 2em 0 2em 0;
+  padding: 2em;
+}
+.contactInfo {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-bottom: 1px solid var(--lighter-gray);
+  color: var(--gray);
+  padding: 1em;
+  gap: 2em;
+}
+.contactIcon {
+  font-size: 2em;
+}
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+}
+.infoText {
+  font-size: 0.9em;
+}
+.validationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3em;
+}
+.validationContainer div {
+  display: flex;
+}
+.validationContainer div div {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+#validationLeftDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+.contactSpan {
+  font-size: 1.1em;
+  max-width: 600px;
+  text-align: center;
+}
+.contact-form {
+  width: 100%;
+  max-width: 600px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+}
+.form-group label {
+  font-size: 0.8em;
+}
+.contactInput {
+  width: 100%;
+}
+.contactInput:focus {
+  outline: none;
+  border: 1px solid var(--orange-lighter);
+  box-shadow: none;
+}
+.contactInput:hover,
+.contactInput:active {
+  background-color: white;
+}
+.form-group span {
+  color: red;
+  right: 2em;
+  font-size: 0.8em;
+  margin-left: auto;
+}
+.checkIcon {
+  color: seagreen;
+  font-size: 2em;
+}
+
+.overlayMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  gap: 1em;
+  padding: 2em;
+  text-align: center;
+  z-index: 1000;
+  border-radius: 10px;
+}
+.closeIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+.spanOverlay {
+  font-size: 0.8em;
+  padding: 0.7em;
+  margin: 1em;
+}
+.contact-color {
+  color: white;
+}
+#height {
+  max-width: 10em;
+}
+.hero-contact img {
+  width: 10em;
+  margin: 0;
+  padding: 0;
+}
+.hero-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9em;
+}
